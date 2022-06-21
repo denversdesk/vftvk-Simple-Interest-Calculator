@@ -1,4 +1,56 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+	background-color: white;
+	color: black;
+	width: 500px;
+	padding: 20px;
+	border-radius: 25px;
+	align: center;
+	margin: 0 auto;
+}
+footer p {
+	font-size: 18px;
+}
+.frm-row{
+	line-height:13px;
+	width: 341px;
+	margin: 0 auto 11px auto;
+}
+.frm-row label {
+	display: block;
+	float: left;
+	padding-top: 4px;
+	width: 125px;
+}
+.frm-row.btn label {
+	width: 341px;
+}
+.frm-row button {
+	width: 127px;
+	border-radius: 0;
+	border: 1px solid gray;
+}
+#rate {
+	width: 128px;
+}
+#rate_val {
+	margin: 4px 9px 4px 7px;
+	position: absolute;
+}
+#result {
+	width: 341px;
+	margin: -3px auto 11px auto;
+	line-height: 19px;
+}
+header,section,footer {
+	display: grid;
+}
+footer {
+	line-height: 62px;
+}
+#result span{
+	background-color:yellow;
+}
 
 
