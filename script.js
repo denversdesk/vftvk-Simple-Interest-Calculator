@@ -31,5 +31,5 @@ function updateRate()
 	var rateval = document.getElementById("rate").value;
 	
 	//Insert the value to the rate_val span tag
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"\%";
 }
